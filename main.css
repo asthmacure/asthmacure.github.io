@@ -1,17 +1,21 @@
 body{background-color:#171717;color:#fff;font-size:18px;font-family:verdana;margin:0% 25% 0% 25%}
+header{background-image:url(bg.jpg);background-repeat:no-repeat;background-size:cover;border-radius:4px;padding:1px 10px 1px 10px}
+a{color:#8b4;text-decoration:none;font-weight:bold}
+a:hover{color:#eee;text-decoration:none}
 nav{font-size:12px}
 nav ul{padding:0;list-style:none;display:flex;flex-wrap:wrap}
-nav li{margin-right:10px;padding:5px 10px 5px 10px;background-color:#222;border-radius:2px;margin-bottom:10px}
-nav li.active{background-color:#8b4}
-nav li.active a{pointer-events:none;cursor:default;color:#171717}
-a{color:#aaa;text-decoration:none;font-weight:bold}
-a:hover{color:#8b4;text-decoration:none}
-h1{font-size:24px;text-align:center;margin-top:20px}
+nav li{margin-right:10px;padding:5px 10px 5px 10px;border-radius:2px;margin-bottom:10px;background-color:rgba(104,104,104,.5)}
+nav li.active{background-color:rgba(85,119,17,.7)}
+nav li.active a{pointer-events:none;cursor:default;color:#fff}
+nav a{color:#222}
+nav a:hover{color:#fff}
+h1{font-family:'Permanent Marker',cursive;font-size:34px;text-align:center;margin-top:10px;text-shadow:2px 2px 4px #000;color:#fff}
 h2{font-size:20px}
 h5{margin:40px 0px 0px 0px}
 p.disc{background-color:#222;padding:5px 10px 5px 10px;border-radius:2px}
 article a{font-weight:normal}
-article a:visited{color:#666}
+article a:visited{color:#571}
+article a:visited:hover{color:#eee}
 article ul{list-style:square}
 article li{padding-top:15px}
 ol{margin-top:0px}
