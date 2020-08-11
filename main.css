@@ -1,5 +1,5 @@
 body{background-color:#171717;color:#fff;font-size:18px;font-family:verdana;margin:0% 25% 0% 25%}
-header{background-image:url(bg.jpg);background-repeat:no-repeat;background-size:cover;border-radius:4px;padding:1px 10px 1px 10px}
+header{background-image:url(bg.jpg);background-repeat:no-repeat;background-size:cover;background-color:#793;border-radius:4px;padding:1px 10px 1px 10px}
 a{color:#8b4;text-decoration:none;font-weight:bold}
 a:hover{color:#eee;text-decoration:none}
 nav{font-size:12px}
